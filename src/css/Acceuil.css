@@ -1,0 +1,567 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-accueil {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 393px;
+  min-height: 4752px;
+  position: relative;
+}
+
+.page-accueil .fond {
+  position: absolute;
+  top: 0;
+  left: -233px;
+  width: 870px;
+  height: 3486px;
+}
+
+.page-accueil .image {
+  position: absolute;
+  top: 0;
+  left: 233px;
+  width: 393px;
+  height: 854px;
+  aspect-ratio: 0.46;
+}
+
+.page-accueil .img {
+  position: absolute;
+  top: 854px;
+  left: 233px;
+  width: 393px;
+  height: 558px;
+  aspect-ratio: 1.17;
+  object-fit: cover;
+}
+
+.page-accueil .image-2 {
+  position: absolute;
+  top: 1389px;
+  left: 233px;
+  width: 393px;
+  height: 544px;
+  aspect-ratio: 1.17;
+  object-fit: cover;
+}
+
+.page-accueil .image-3 {
+  position: absolute;
+  top: 1924px;
+  left: 233px;
+  width: 393px;
+  height: 535px;
+  aspect-ratio: 1.17;
+  object-fit: cover;
+}
+
+.page-accueil .image-4 {
+  position: absolute;
+  top: 2449px;
+  left: 233px;
+  width: 393px;
+  height: 545px;
+  aspect-ratio: 1.17;
+  object-fit: cover;
+}
+
+.page-accueil .image-5 {
+  position: absolute;
+  top: 782px;
+  left: 399px;
+  width: 227px;
+  height: 108px;
+  aspect-ratio: 3.14;
+}
+
+.page-accueil .image-6 {
+  position: absolute;
+  top: 2845px;
+  left: 233px;
+  width: 393px;
+  height: 535px;
+  aspect-ratio: 1.17;
+  object-fit: cover;
+}
+
+.page-accueil .image-7 {
+  position: absolute;
+  top: 3373px;
+  left: 233px;
+  width: 393px;
+  height: 113px;
+  aspect-ratio: 5.54;
+}
+
+.page-accueil .image-8 {
+  position: absolute;
+  top: 3300px;
+  left: 401px;
+  width: 225px;
+  height: 108px;
+  aspect-ratio: 3.14;
+}
+
+.page-accueil .page-de-garde {
+  position: absolute;
+  top: 135px;
+  left: -103px;
+  width: 563px;
+  height: 792px;
+}
+
+.page-accueil .image-picsart {
+  position: absolute;
+  top: 261px;
+  left: 103px;
+  width: 242px;
+  height: 229px;
+  aspect-ratio: 1.33;
+  object-fit: cover;
+}
+
+.page-accueil .lucia-moholy {
+  position: absolute;
+  top: 0;
+  left: 114px;
+  width: 445px;
+  font-family: "Baumans", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 104.7px;
+  letter-spacing: -9.43px;
+  line-height: 82.2px;
+}
+
+.page-accueil .la-photographe-oubli {
+  position: absolute;
+  top: 198px;
+  left: 122px;
+  width: 188px;
+  font-family: "PP Mori-Regular", Helvetica;
+  font-weight: 400;
+  color: #483d3d;
+  font-size: 20px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+}
+
+.page-accueil .image-picsart-2 {
+  position: absolute;
+  top: 209px;
+  left: 103px;
+  width: 393px;
+  height: 510px;
+  aspect-ratio: 0.77;
+}
+
+.page-accueil .sans-titre {
+  position: absolute;
+  top: 464px;
+  left: 103px;
+  width: 393px;
+  height: 336px;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+}
+
+.page-accueil .texte {
+  position: absolute;
+  top: 1031px;
+  left: 24px;
+  width: 347px;
+  height: 3015px;
+  display: flex;
+  flex-direction: column;
+  gap: 2221px;
+}
+
+.page-accueil .articles {
+  width: 343px;
+  height: 234px;
+  font-family: "Bauhaus", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: -1.92px;
+  line-height: 75.3px;
+}
+
+.page-accueil .text-wrapper-7 {
+  margin-left: 30px;
+  width: 293px;
+  height: 560px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: 25.2px;
+}
+
+.page-accueil .footer {
+  position: absolute;
+  top: 4170px;
+  left: 0;
+  width: 393px;
+  height: 606px;
+  background-color: #1d1513;
+}
+
+.page-accueil .lucia-moholy-2 {
+  position: absolute;
+  width: 46.56%;
+  height: 9.77%;
+  top: 3.79%;
+  left: 3.82%;
+  font-family: "Baumans-Regular", Helvetica;
+  font-weight: 400;
+  color: #dddddd;
+  font-size: 43.1px;
+  letter-spacing: -3.88px;
+  line-height: 33.8px;
+}
+
+.page-accueil .vector {
+  width: 5.09%;
+  height: 3.30%;
+  left: 11.96%;
+  position: absolute;
+  top: 74.92%;
+}
+
+.page-accueil .vector-2 {
+  width: 5.09%;
+  height: 3.28%;
+  left: 3.82%;
+  position: absolute;
+  top: 74.92%;
+}
+
+.page-accueil .vector-3 {
+  width: 5.09%;
+  height: 2.92%;
+  left: 21.37%;
+  position: absolute;
+  top: 74.92%;
+}
+
+.page-accueil .vector-4 {
+  width: 5.60%;
+  height: 2.64%;
+  left: 29.52%;
+  position: absolute;
+  top: 74.92%;
+}
+
+.page-accueil .CONTACT-pl-lucien {
+  position: absolute;
+  width: 48.09%;
+  height: 34.49%;
+  top: 39.11%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-SemiBold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.page-accueil .text-wrapper-8 {
+  font-weight: 600;
+}
+
+.page-accueil .text-wrapper-9 {
+  font-family: "Kanit-Regular", Helvetica;
+}
+
+.page-accueil .text-wrapper-10 {
+  font-family: "Kanit-Regular", Helvetica;
+  text-decoration: underline;
+}
+
+.page-accueil .text-wrapper-11 {
+  position: absolute;
+  width: 93.89%;
+  height: 12.87%;
+  top: 86.47%;
+  left: 3.82%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: -0.26px;
+  line-height: 15.2px;
+}
+
+.page-accueil .text-wrapper-12 {
+  position: absolute;
+  width: 22.14%;
+  height: 4.62%;
+  top: 22.28%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.page-accueil .text-wrapper-13 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 26.07%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.page-accueil .text-wrapper-14 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 29.87%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.page-accueil .article-link {
+  position: absolute;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  left: 0;
+  z-index: 6;
+  pointer-events: auto;
+}
+
+.page-accueil .article-link:nth-of-type(1) {
+  top: 1550px;
+}
+
+.page-accueil .article-link:nth-of-type(2) {
+  top: 1172px;
+}
+
+.page-accueil .article-link:nth-of-type(3) {
+  top: 2092px;
+}
+
+.page-accueil .article-link:nth-of-type(4) {
+  top: 2459px;
+}
+
+.page-accueil .article-link:nth-of-type(5) {
+  top: 2845px;
+}
+
+.page-accueil .article-link .article-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.page-accueil .text-wrapper-15 {
+  position: absolute;
+  width: 49.47%;
+  height: 27.45%;
+  top: 6.82%;
+  left: 24.57%;
+  font-family: "Baumans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.7px;
+  letter-spacing: -0.37px;
+  line-height: 14.7px;
+  white-space: nowrap;
+}
+
+.page-accueil .image-10 {
+  position: absolute;
+  width: 66.62%;
+  top: 24px;
+  left: 14.74%;
+  height: 21px;
+  aspect-ratio: 1.52;
+  object-fit: cover;
+}
+
+.page-accueil .logo-flche {
+  position: absolute;
+  top: 4031px;
+  left: 138px;
+  width: 117px;
+  height: 67px;
+  object-fit: cover;
+}
+
+.page-accueil .component {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 393px;
+  height: 213px;
+  background: linear-gradient(
+    360deg,
+    rgba(1, 1, 1, 0.29) 0%,
+    rgba(54, 54, 54, 0) 100%
+  );
+}
+
+.page-accueil .group-3 {
+  position: absolute;
+  width: 12.24%;
+  height: 24.41%;
+  top: 8.45%;
+  left: 18.83%;
+}
+
+.page-accueil .rectangle-2 {
+  background-color: #d9d9d9;
+  border-radius: 8.56px;
+  box-shadow: 3.81px 3.81px 3.81px #00000040;
+  position: absolute;
+  width: 95.84%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* Original CSS code should be injected here */
+
+.page-accueil .logo-flche {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.page-accueil .logo-flche:hover {
+  transform: translateY(-5px);
+}
+
+.page-accueil .logo-flche:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.page-accueil .group-2,
+.page-accueil .group-3 {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.page-accueil .group-2:hover,
+.page-accueil .group-3:hover {
+  opacity: 0.8;
+}
+
+.page-accueil .group-2:focus-within,
+.page-accueil .group-3:focus-within {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.page-accueil .footer a {
+  transition: opacity 0.3s ease;
+}
+
+.page-accueil .footer a:hover {
+  opacity: 0.8;
+}
+
+.page-accueil .footer a:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.page-accueil .text-wrapper-12,
+.page-accueil .text-wrapper-13,
+.page-accueil .text-wrapper-14 {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.page-accueil .text-wrapper-12:hover,
+.page-accueil .text-wrapper-13:hover,
+.page-accueil .text-wrapper-14:hover {
+  opacity: 1;
+}
+
+.page-accueil .text-wrapper-12:focus,
+.page-accueil .text-wrapper-13:focus,
+.page-accueil .text-wrapper-14:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.page-accueil .vector,
+.page-accueil .vector-2,
+.page-accueil .vector-3,
+.page-accueil .vector-4 {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.page-accueil .vector:hover,
+.page-accueil .vector-2:hover,
+.page-accueil .vector-3:hover,
+.page-accueil .vector-4:hover {
+  transform: scale(1.1);
+}
+
+.page-accueil .vector:focus,
+.page-accueil .vector-2:focus,
+.page-accueil .vector-3:focus,
+.page-accueil .vector-4:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.page-accueil .rectangle-2 {
+  display: block;
+}
+
+.page-accueil address {
+  font-style: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-accueil .logo-flche,
+  .page-accueil .footer a,
+  .page-accueil .text-wrapper-12,
+  .page-accueil .text-wrapper-13,
+  .page-accueil .text-wrapper-14,
+  .page-accueil .vector,
+  .page-accueil .vector-2,
+  .page-accueil .vector-3,
+  .page-accueil .vector-4 {
+    transition: none;
+  }
+}
+
+

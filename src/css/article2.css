@@ -1,0 +1,922 @@
+.article {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 393px;
+  min-height: 6975px;
+  position: relative;
+}
+
+.article .fonds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 393px;
+  height: 7000px;
+  pointer-events: none;
+}
+
+.article .fond-slot-1,
+.article .fond-slot-2,
+.article .fond-slot-3,
+.article .fond-slot-4,
+.article .fond-slot-5,
+.article .fond-slot-6,
+.article .fond-slot-7,
+.article .fond-slot-8,
+.article .fond-slot-9,
+.article .fond-slot-10, 
+.article .fond-slot-11,
+.article .fond-slot-12,
+.article .fond-slot-13,
+.article .fond-slot-14,
+.article .fond-slot-15,
+.article .fond-slot-16, 
+.article .fond-slot-17,
+.article .fond-slot-18,
+.article .fond-slot-19 {
+  position: absolute;
+  left: 0;
+  width: 393px;
+  object-fit: cover;
+}
+
+.article .fond-slot-1 { top: 0; }
+.article .fond-slot-2 { top: 500px;  }
+.article .fond-slot-3 { top: 1000px; }
+.article .fond-slot-4 { top: 1251px; }
+.article .fond-slot-5 { top: 1385px; }
+.article .fond-slot-6 { top: 1773px; }
+.article .fond-slot-7 { top: 2157px;}
+.article .fond-slot-8 { top: 2554.7px; }
+.article .fond-slot-9 { top: 2946px; }
+.article .fond-slot-10 { top: 3238px; z-index: 2;}
+.article .fond-slot-11 { top: 3244px; z-index: 1; }
+.article .fond-slot-12 { top: 3668px;; }
+.article .fond-slot-13 { top: 4080px; }
+.article .fond-slot-14 { top: 4706px;z-index: 10; }
+.article .fond-slot-15 { top: 3496.9px;z-index: 1;}
+.article .fond-slot-16 { top: 4818px;  }
+.article .fond-slot-17 { top: 5447.6px;  }
+.article .fond-slot-18 { top: 5536.9px; }
+.article .fond-slot-19 { top: 5930px;}
+
+.article .page-de-garde {
+  position: absolute;
+  top: 284px;
+  left: -145px;
+  width: 736px;
+  height: 828px;
+}
+
+.article .gemini-generated {
+  position: absolute;
+  top: 0;
+  left: 145px;
+  width: 393px;
+  height: 736px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.article .image-photoroom {
+  position: absolute;
+  top: 270px;
+  left: 145px;
+  width: 393px;
+  height: 700px;
+  aspect-ratio: 1.26;
+  object-fit: cover;
+}
+
+.article .premire-partie {
+  position: absolute;
+  top: 1431px;
+  left: -184px;
+  width: 776px;
+  height: 2046px;
+}
+
+.article .le-bauhaus-qu-est-ce {
+  position: absolute;
+  top: 0;
+  left: 219px;
+  width: 335px;
+  font-family: "Bauhaus", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: -0.72px;
+  line-height: 39.6px;
+  z-index: 2;
+}
+
+.article .le-bauhaus-est-une {
+  position: absolute;
+  top: 96px;
+  left: 219px;
+  width: 299px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 17.6px;
+  z-index: 2;
+}
+
+.article .text-wrapper {
+  letter-spacing: -0.05px;
+}
+
+.article .bande-dessinee-bulle {
+  position: absolute;
+  top: 160px;
+  left: 284px;
+  width: 293px;
+  height: 371px;
+  aspect-ratio: 0.93;
+  object-fit: cover;
+}
+
+.article .div {
+  position: absolute;
+  top: 264px;
+  left: 377px;
+  width: 201px;
+  font-family: "Roboto Condensed", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 17.6px;
+}
+
+.article .capture-dcran {
+  position: absolute;
+  top: 244px;
+  left: 184px;
+  width: 238px;
+  height: 451px;
+  object-fit: cover;
+}
+
+.article .img {
+  position: absolute;
+  top: 695px;
+  left: 237px;
+  width: 340px;
+  height: 547px;
+  aspect-ratio: 1.72;
+  object-fit: cover;
+}
+
+.article .image-photoroom-2 {
+  position: absolute;
+  top: 684px;
+  left: 184px;
+  width: 347px;
+  height: 465px;
+  aspect-ratio: 0.96;
+  object-fit: cover;
+}
+
+.article .marianne-brandt-je {
+  top: 787px;
+  left: 210px;
+  width: 165px;
+  font-family: "Roboto Condensed", Helvetica;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: 26.4px;
+  position: absolute;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.article .image-photoroom-3 {
+  position: absolute;
+  top: 1540px;
+  left: 184px;
+  width: 304px;
+  height: 506px;
+  aspect-ratio: 0.79;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.article .gemini-generated-2 {
+  position: absolute;
+  top: 1022px;
+  left: 184px;
+  width: 393px;
+  height: 764px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.article .p {
+  position: absolute;
+  top: 1298px;
+  left: 224px;
+  width: 336px;
+  font-family: "Roboto Condensed", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: normal;
+}
+
+.article .partie {
+  position: absolute;
+  top: 3871px;
+  left: -332px;
+  width: 1069px;
+  height: 2311px;
+}
+
+.article .image {
+  top: 0;
+  left: 520px;
+  width: 191px;
+  position: absolute;
+  height: 61px;
+  aspect-ratio: 3.14;
+}
+
+.article .image-2 {
+  top: 6px;
+  left: 332px;
+  width: 106px;
+  position: absolute;
+  height: 61px;
+  aspect-ratio: 3.14;
+}
+
+.article .text-wrapper-2 {
+  position: absolute;
+  top: 492px;
+  left: 347px;
+  width: 128px;
+  font-family: "PP Mori-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13.3px;
+  letter-spacing: -0.27px;
+  line-height: normal;
+}
+
+.article .text-wrapper-3 {
+  top: 1053px;
+  left: 359px;
+  width: 317px;
+  font-family: "Inter-Regular", Helvetica;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+  position: absolute;
+  font-weight: 400;
+}
+
+.article .image-3 {
+  position: absolute;
+  top: 1347px;
+  left: 357px;
+  width: 349px;
+  height: 218px;
+  aspect-ratio: 1.6;
+  object-fit: cover;
+}
+
+.article .text-wrapper-4 {
+  top: 1751px;
+  left: 353px;
+  width: 335px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  position: absolute;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: normal;
+}
+
+.article .text-wrapper-5 {
+  top: 1645px;
+  left: 345px;
+  font-family: "Baumans", Helvetica;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: normal;
+}
+
+.article .image-4 {
+  position: absolute;
+  top: 2049px;
+  left: 366px;
+  width: 325px;
+  height: 246px;
+  aspect-ratio: 1.32;
+  object-fit: cover;
+}
+
+.article .image-5 {
+  position: absolute;
+  top: 2049px;
+  left: 696px;
+  width: 29px;
+  height: 246px;
+  aspect-ratio: 1.32;
+  object-fit: cover;
+}
+
+.article .image-6 {
+  position: absolute;
+  top: 1347px;
+  left: 712px;
+  width: 13px;
+  height: 218px;
+  aspect-ratio: 1.6;
+  object-fit: cover;
+}
+
+.article .image-7 {
+  position: absolute;
+  top: 1347px;
+  left: 332px;
+  width: 17px;
+  height: 218px;
+  aspect-ratio: 1.6;
+  object-fit: cover;
+}
+
+.article .image-8 {
+  position: absolute;
+  top: 2050px;
+  left: 332px;
+  width: 26px;
+  height: 246px;
+  aspect-ratio: 1.32;
+  object-fit: cover;
+}
+
+/* Carousel */
+.carousel-container {
+  position: absolute;
+  top: 2049px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 325px;
+  height: 246px;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+.carousel-image.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 6;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.carousel-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: translateY(-50%) scale(1.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 6;
+}
+
+.carousel-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.carousel-indicator.active {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.2);
+}
+
+.carousel-indicator:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.article .partie-2 {
+  position: absolute;
+  top: 3533px;
+  left: -186px;
+  width: 799px;
+  height: 1398px;
+}
+
+.article .ellipse {
+  position: absolute;
+  top: 429px;
+  left: 317px;
+  width: 401px;
+  height: 401px;
+  background-color: #e6bc31;
+  border-radius: 185.5px;
+}
+
+.article .image-photoroom-4 {
+  position: absolute;
+  top: 799px;
+  left: 186px;
+  width: 393px;
+  height: 600px;
+  aspect-ratio: 1.33;
+  object-fit: cover;
+}
+
+.article .l-esprit-du-bahaus {
+  position: absolute;
+  top: 15px;
+  left: 201px;
+  transform: rotate(-2.00deg);
+  font-family: "Baumans", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 42.7px;
+  letter-spacing: -0.85px;
+  line-height: normal;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.article .text-wrapper-6 {
+  top: 129px;
+  left: 226px;
+  width: 333px;
+  font-family: "Inter-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+  position: absolute;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.article .text-wrapper-7 {
+  position: absolute;
+  top: 500px;
+  left: 190px;
+  width: 148px;
+  font-family: "PP Mori-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+}
+
+.article .text-wrapper-8 {
+  position: absolute;
+  top: 1110px;
+  left: 329px;
+  font-family: "PP Mori-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.article .image-photoroom-5 {
+  position: absolute;
+  top: 460px;
+  left: 201px;
+  width: 378px;
+  height: 481px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.article .image-photoroom-6 {
+  position: absolute;
+  top: 277px;
+  left: 187px;
+  width: 285px;
+  height: 285px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.article .image-9 {
+  top: 1173px;
+  height: 83px;
+  position: absolute;
+  left: 186px;
+  width: 393px;
+  aspect-ratio: 5.59;
+}
+
+.article .image-10 {
+  top: 1327px;
+  height: 71px;
+  position: absolute;
+  left: 186px;
+  width: 393px;
+  aspect-ratio: 5.59;
+}
+
+.article .image-11 {
+  position: absolute;
+  top: 1235px;
+  left: 186px;
+  width: 393px;
+  height: 116px;
+  aspect-ratio: 3.49;
+}
+
+.article .le-bahaus-et-l {
+  top: 1237px;
+  left: 227px;
+  width: 466px;
+  font-family: "Baumans", Helvetica;
+  color: #000000;
+  font-size: 42.7px;
+  letter-spacing: -0.85px;
+  line-height: normal;
+  position: absolute;
+  font-weight: 400;
+  z-index: 10;
+}
+
+.article .group {
+  position: absolute;
+  top: 6239px;
+  left: 105px;
+  width: 203px;
+  height: 60px;
+}
+
+.article .r {
+  left: 95px;
+  position: absolute;
+  top: 0;
+  width: 108px;
+  height: 60px;
+}
+
+.article .group-2 {
+  position: relative;
+  width: 55.54%;
+  height: 99.82%;
+  left: 22.23%;
+  background-image: url(./img/vector-5.svg);
+  background-size: 100% 100%;
+}
+
+.article .group-wrapper {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 108px;
+  height: 60px;
+}
+
+.article .group-3 {
+  position: relative;
+  width: 55.54%;
+  height: 99.82%;
+  left: 22.23%;
+  background-image: url(./img/image.svg);
+  background-size: 100% 100%;
+}
+
+.article .footer {
+  position: absolute;
+  top: 6369px;
+  left: -1px;
+  width: 434px;
+  height: 606px;
+  background-color: #1d1513;
+}
+
+.article .lucia-moholy {
+  width: 46.56%;
+  height: 9.77%;
+  top: 3.79%;
+  left: 3.82%;
+  font-family: "Baumans-Regular", Helvetica;
+  color: #dddddd;
+  font-size: 43.1px;
+  letter-spacing: -3.88px;
+  line-height: 33.8px;
+  position: absolute;
+  font-weight: 400;
+}
+
+.article .vector {
+  position: absolute;
+  width: 5.09%;
+  height: 3.30%;
+  top: 74.92%;
+  left: 11.96%;
+}
+
+.article .vector-2 {
+  position: absolute;
+  width: 5.09%;
+  height: 3.28%;
+  top: 74.92%;
+  left: 3.82%;
+}
+
+.article .vector-3 {
+  position: absolute;
+  width: 5.09%;
+  height: 2.92%;
+  top: 74.92%;
+  left: 21.37%;
+}
+
+.article .vector-4 {
+  position: absolute;
+  width: 5.60%;
+  height: 2.64%;
+  top: 74.92%;
+  left: 29.52%;
+}
+
+.article .CONTACT-pl-lucien {
+  position: absolute;
+  width: 48.09%;
+  height: 34.49%;
+  top: 39.11%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-SemiBold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.article .span {
+  font-weight: 600;
+}
+
+.article .text-wrapper-9 {
+  font-family: "Kanit-Regular", Helvetica;
+}
+
+.article .text-wrapper-10 {
+  font-family: "Kanit-Regular", Helvetica;
+  text-decoration: underline;
+}
+
+.article .text-wrapper-11 {
+  position: absolute;
+  width: 93.89%;
+  height: 12.87%;
+  top: 86.47%;
+  left: 3.82%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: -0.26px;
+  line-height: 15.2px;
+}
+
+.article .text-wrapper-12 {
+  position: absolute;
+  width: 22.14%;
+  height: 4.62%;
+  top: 22.28%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.article .text-wrapper-13 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 26.07%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.article .text-wrapper-14 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 29.87%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.article .component {
+  position: absolute;
+  top: -6px;
+  left: 1px;
+  width: 393px;
+  height: 213px;
+  background: linear-gradient(
+    360deg,
+    rgba(1, 1, 1, 0.29) 0%,
+    rgba(54, 54, 54, 0) 100%
+  );
+}
+
+.article .menu-EFEFEF {
+  position: absolute;
+  width: 19.34%;
+  height: 35.68%;
+  top: 6.10%;
+  left: 74.30%;
+}
+
+.article .vector-5 {
+  position: absolute;
+  width: 75.00%;
+  height: 50.00%;
+  top: 25.00%;
+  left: 12.50%;
+}
+
+.article .group-4 {
+  position: absolute;
+  width: 12.24%;
+  height: 24.41%;
+  top: 8.45%;
+  left: 18.83%;
+}
+
+.article .rectangle {
+  position: absolute;
+  width: 95.84%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 8.56px;
+  box-shadow: 3.81px 3.81px 3.81px #00000040;
+}
+
+.article .text-wrapper-15 {
+  position: absolute;
+  width: 49.47%;
+  height: 27.45%;
+  top: 6.82%;
+  left: 24.57%;
+  font-family: "Baumans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18.7px;
+  letter-spacing: -0.37px;
+  line-height: 14.7px;
+  white-space: nowrap;
+}
+
+.article .image-12 {
+  position: absolute;
+  width: 66.62%;
+  top: 24px;
+  left: 14.74%;
+  height: 21px;
+  aspect-ratio: 1.52;
+  object-fit: cover;
+}
+
+.article .group-5 {
+  position: absolute;
+  width: 12.24%;
+  height: 24.41%;
+  top: 8.45%;
+  left: 4.83%;
+}
+
+.article .le-bahaus {
+  top: 135px;
+  left: 32px;
+  width: 381px;
+  font-family: "Baumans", Helvetica;
+  color: #ffffff;
+  font-size: 104.7px;
+  letter-spacing: -9.43px;
+  line-height: 82.2px;
+  position: absolute;
+  font-weight: 400;
+}
+
+.article .navigation-image-link-left {
+  position: absolute;
+  top: 6232px;
+  left: 37%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 4;
+}
+
+.article .navigation-image-link-right {
+  position: absolute;
+  top: 6232px;
+  left: 63%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 4;
+}
+
+.article .navigation-image {
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.article .navigation-image-link-left:hover .navigation-image,
+.article .navigation-image-link-right:hover .navigation-image {
+  transform: scale(1.1);
+}
