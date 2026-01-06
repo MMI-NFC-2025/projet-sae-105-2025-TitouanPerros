@@ -1,0 +1,358 @@
+.footer {
+  position: relative;
+  width: 393px;
+  height: 606px;
+  background-color: #1d1513;
+}
+
+.footer .lucia-moholy {
+  position: absolute;
+  width: 46.56%;
+  height: 9.77%;
+  top: 3.79%;
+  left: 3.82%;
+  font-family: "Baumans-Regular", Helvetica;
+  font-weight: 400;
+  color: #dddddd;
+  font-size: 43.1px;
+  letter-spacing: -3.88px;
+  line-height: 33.8px;
+}
+
+.footer .vector {
+  left: 11.96%;
+  position: absolute;
+  top: 74.92%;
+}
+
+.footer .img {
+  width: 5.09%;
+  height: 3.28%;
+  left: 3.82%;
+  position: absolute;
+  top: 74.92%;
+}
+
+.footer .vector-2 {
+  width: 5.09%;
+  height: 2.92%;
+  left: 21.37%;
+  position: absolute;
+  top: 74.92%;
+}
+
+.footer .vector-3 {
+  width: 5.60%;
+  height: 2.64%;
+  left: 29.52%;
+  position: absolute;
+  top: 74.92%;
+}
+
+.footer .CONTACT-pl-lucien {
+  position: absolute;
+  width: 48.09%;
+  height: 34.49%;
+  top: 39.11%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-SemiBold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.footer .text-wrapper {
+  font-weight: 600;
+}
+
+.footer .span {
+  font-family: "Kanit-Regular", Helvetica;
+}
+
+.footer .text-wrapper-2 {
+  font-family: "Kanit-Regular", Helvetica;
+  text-decoration: underline;
+}
+
+.footer .div {
+  position: absolute;
+  width: 93.89%;
+  height: 12.87%;
+  top: 86.47%;
+  left: 3.82%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: -0.26px;
+  line-height: 15.2px;
+}
+
+.footer .text-wrapper-3 {
+  position: absolute;
+  width: 22.14%;
+  height: 4.62%;
+  top: 22.28%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.footer .text-wrapper-4 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 26.07%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.footer .text-wrapper-5 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 29.87%;
+  left: 4.58%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Inject original globals.css styles here */
+
+.footer {
+  position: relative;
+  width: 393px;
+  height: 606px;
+  background-color: #1d1513;
+}
+
+.footer .lucia-moholy {
+  position: absolute;
+  width: 46.56%;
+  height: 9.77%;
+  top: 3.79%;
+  left: 3.82%;
+  font-family: "Baumans-Regular", Helvetica;
+  font-weight: 400;
+  color: #dddddd;
+  font-size: 43.1px;
+  letter-spacing: -3.88px;
+  line-height: 33.8px;
+  margin: 0;
+}
+
+.footer .footer-navigation {
+  position: absolute;
+  top: 22.28%;
+  left: 4.58%;
+  width: 29.77%;
+}
+
+.footer .footer-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .footer-nav-list li {
+  margin-bottom: 0;
+}
+
+.footer .footer-nav-list a {
+  display: block;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+  width: 300px;
+}
+
+.footer .footer-nav-list a:hover,
+.footer .footer-nav-list a:focus {
+  opacity: 1;
+}
+
+.footer .text-wrapper-3 {
+  position: absolute;
+  width: 22.14%;
+  height: 4.62%;
+  top: 0;
+  left: 0;
+}
+
+.footer .text-wrapper-4 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 25px;
+  left: 0;
+}
+
+.footer .text-wrapper-5 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 22px;
+  left: -8px;
+}
+
+.footer .contact-section {
+  position: absolute;
+  width: 48.09%;
+  top: 39.11%;
+  left: 4.58%;
+}
+
+.footer .contact-heading {
+  opacity: 0.59;
+  font-family: "Kanit-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0 0 1em 0;
+}
+
+.footer .contact-details {
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  font-style: normal;
+}
+
+.footer .address-link {
+  display: block;
+  font-family: "Kanit-Regular", Helvetica;
+  text-decoration: underline;
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+
+.footer .address-link:hover,
+.footer .address-link:focus {
+  opacity: 1;
+}
+
+.footer .contact-phone {
+  font-family: "Kanit-Regular", Helvetica;
+  margin-bottom: 0;
+}
+
+.footer .email-link {
+  display: block;
+  font-family: "Kanit-Regular", Helvetica;
+  text-decoration: underline;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.footer .email-link:hover,
+.footer .email-link:focus {
+  opacity: 1;
+}
+
+.footer .social-section {
+  position: absolute;
+  top: 66.5%;
+  left: 3.82%;
+  width: 35%;
+}
+
+.footer .social-heading {
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0 0 1em 0;
+}
+
+.footer .social-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.footer .social-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+  opacity: 0.7;
+}
+
+.footer .vector {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: block;
+}
+
+.footer .img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: block;
+}
+
+.footer .vector-2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: block;
+}
+
+.footer .vector-3 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: block;
+}
+
+.footer .div {
+  position: absolute;
+  width: 93.89%;
+  height: 12.87%;
+  top: 86.47%;
+  left: 3.82%;
+  opacity: 0.59;
+  font-family: "Kanit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: -0.26px;
+  line-height: 15.2px;
+  margin: 0;
+}

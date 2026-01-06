@@ -268,7 +268,7 @@ html, body {
   position: absolute;
   top: 2649px;
   left: 110px;
-  width: 261px;
+  width: 280px;
   font-family: "PP Mori-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -280,7 +280,7 @@ html, body {
 .article .div {
   top: 2082px;
   left: 28px;
-  width: 90px;
+  width: 180px;
   letter-spacing: -0.26px;
   line-height: 10.2px;
   position: absolute;
@@ -323,7 +323,7 @@ html, body {
   position: absolute;
   top: 697px;
   left: 19px;
-  width: 215px;
+  width: 280px;
   font-family: "PP Mori-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -336,7 +336,7 @@ html, body {
   position: absolute;
   top: 758px;
   left: 19px;
-  width: 172px;
+  width: 250px;
   font-family: "PP Mori-SemiBold", Helvetica;
   font-weight: 600;
   color: #000000;
@@ -349,7 +349,7 @@ html, body {
   position: absolute;
   top: 1232px;
   left: 301px;
-  width: 97px;
+  width: 180px;
   font-family: "PP Mori-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -606,21 +606,6 @@ html, body {
   left: 29.52%;
 }
 
-.article .CONTACT-pl-lucien {
-  position: absolute;
-  width: 48.09%;
-  height: 34.49%;
-  top: 39.11%;
-  left: 4.58%;
-  opacity: 0.59;
-  font-family: "Kanit-SemiBold", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 .article .span {
   font-weight: 600;
 }
@@ -632,64 +617,6 @@ html, body {
 .article .text-wrapper-11 {
   font-family: "Kanit-Regular", Helvetica;
   text-decoration: underline;
-}
-
-.article .text-wrapper-12 {
-  position: absolute;
-  width: 93.89%;
-  height: 12.87%;
-  top: 86.47%;
-  left: 3.82%;
-  opacity: 0.59;
-  font-family: "Kanit-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 13px;
-  letter-spacing: -0.26px;
-  line-height: 15.2px;
-}
-
-.article .text-wrapper-13 {
-  position: absolute;
-  width: 22.14%;
-  height: 4.62%;
-  top: 22.28%;
-  left: 4.58%;
-  opacity: 0.59;
-  font-family: "Kanit-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.article .text-wrapper-14 {
-  position: absolute;
-  height: 4.62%;
-  top: 26.07%;
-  left: 4.58%;
-  opacity: 0.59;
-  font-family: "Kanit-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.article .text-wrapper-15 {
-  position: absolute;
-  height: 4.62%;
-  top: 29.87%;
-  left: 4.58%;
-  opacity: 0.59;
-  font-family: "Kanit-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
 .article .flches {
@@ -708,15 +635,6 @@ html, body {
   height: 60px;
 }
 
-.article .group-4 {
-  position: relative;
-  width: 55.54%;
-  height: 99.82%;
-  left: 22.23%;
-  background-image: url(./img/image.svg);
-  background-size: 100% 100%;
-}
-
 .article .group-wrapper {
   left: 0;
   transform: rotate(180deg);
@@ -724,15 +642,6 @@ html, body {
   top: 0;
   width: 108px;
   height: 60px;
-}
-
-.article .group-5 {
-  position: relative;
-  width: 55.54%;
-  height: 99.82%;
-  left: 22.23%;
-  background-image: url(./img/vector-6.svg);
-  background-size: 100% 100%;
 }
 
 .article .son-histoire {
