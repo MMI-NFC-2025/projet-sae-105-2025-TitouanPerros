@@ -139,18 +139,6 @@
   object-fit: cover;
 }
 
-.article .div {
-  position: absolute;
-  top: 264px;
-  left: 377px;
-  width: 201px;
-  font-family: "Roboto Condensed", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 16px;
-  letter-spacing: -0.32px;
-  line-height: 17.6px;
-}
 
 .article .capture-dcran {
   position: absolute;
