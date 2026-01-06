@@ -656,3 +656,38 @@ html, body {
   letter-spacing: -9.43px;
   line-height: 78.5px;
 }
+.footer .text-wrapper-5 {
+  position: absolute;
+  width: 29.77%;
+  height: 4.62%;
+  top: 22px;
+  left: -8px;
+}
+
+.article .navigation-image-link-left {
+  position: absolute;
+  top: 5567px;
+  left: 37%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 4;
+}
+
+.article .navigation-image-link-right {
+  position: absolute;
+  top: 5567px;
+  left: 63%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 4;
+}
+
+.article .navigation-image {
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.article .navigation-image-link-left:hover .navigation-image,
+.article .navigation-image-link-right:hover .navigation-image {
+  transform: scale(1.1);
+}

@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.glossaire {
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.glossaire .fonds {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.glossaire .fonds .image,
+.glossaire .fonds .img,
+.glossaire .fonds .image-2 {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+}
+
+.glossaire .texte {
+  position: relative;
+  z-index: 1;
+  padding: 100px 20px 40px 20px;
+}
+
+.glossaire .text-wrapper {
+  font-family: "Baumans", Helvetica, sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: -2px;
+  line-height: 1.1;
+  margin: 0 0 40px 0;
+}
+
+.glossaire section {
+  position: relative;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+
+.glossaire .span {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.glossaire .text-wrapper-2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.95;
+}
+
+.glossaire .footer {
+  position: relative;
+  z-index: 1;
+  margin-top: 60px;
+  width: 100%;
+  max-width: 393px;
+}
+
+@media (max-width: 393px) {
+  .glossaire .text-wrapper {
+    font-size: 54px;
+  }
+  
+  .glossaire .texte {
+    padding: 90px 16px 30px 16px;
+  }
+}

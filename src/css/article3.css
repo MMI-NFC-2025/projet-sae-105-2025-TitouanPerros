@@ -838,6 +838,29 @@
   transition: transform 0.3s ease;
 }
 
+.article1 .navigation-image-link-left {
+  position: absolute;
+  top: 8080px;
+  left: 37%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 4;
+}
+
+.article1 .navigation-image-link-right {
+  position: absolute;
+  top: 8080px;
+  left: 63%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 4;
+}
+
+.article1 .navigation-image-link-left:hover .navigation-image,
+.article1 .navigation-image-link-right:hover .navigation-image {
+  transform: scale(1.1);
+}
+
 .article1 .navigation2-image-link-left:hover .navigation-image,
 .article1 .navigation2-image-link-right:hover .navigation-image {
   transform: scale(1.1);

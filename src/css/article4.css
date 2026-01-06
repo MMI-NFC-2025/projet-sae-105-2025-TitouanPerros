@@ -30,6 +30,7 @@
 .article .fond-slot-12,
 .article .fond-slot-13,
 .article .fond-slot-14,
+.article .fond-slot5-14,
 .article .fond-slot-15,
 .article .fond-slot-16, 
 .article .fond-slot-17,
@@ -54,7 +55,8 @@
 .article .fond-slot-11 { top: 3832px; }
 .article .fond-slot-12 { top: 4221px; }
 .article .fond-slot-13 { top: 4603px; }
-.article .fond-slot-14 { top: 4932px; }
+.article .fond-slot-14,
+.article .fond-slot5-14 { top: 4932px; }
 .article .fond-slot-15 { top: 5670px; }
 .article .fond-slot-16 { top: 7500px; }
 .article .fond-slot-17 { top: 8000px; }
@@ -579,8 +581,33 @@
 }
 
 .article .navigation-image {
-  width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
+.article .navigation-image-link-left {
+  position: absolute;
+  top: 6200px;
+  left: 40%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 4;
+  width: 60px;
+  height: 60px;
+}
+
+.article .navigation-image-link-right {
+  position: absolute;
+  top: 6200px;
+  left: 60%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 4;
+  width: 60px;
+  height: 60px;
+}
+
+.article .navigation-image-link-left:hover,
+.article .navigation-image-link-right:hover {
+  transform: translateX(-50%) scale(1.1);
+}
