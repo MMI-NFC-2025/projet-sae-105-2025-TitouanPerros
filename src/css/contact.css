@@ -38,15 +38,15 @@ html {
 .page-contact .envie-de-nous {
   position: absolute;
   top: 27px;
-  left: 119px;
-  width: 350px;
+  left: 95px;
+  width: 270px;
   font-family: "PP Mori-SemiBoldItalic", Helvetica;
   font-weight: 600;
   font-style: italic;
   color: #000000;
-  font-size: 32px;
-  letter-spacing: -0.64px;
-  line-height: 25.1px;
+  font-size: 28px;
+  letter-spacing: -0.56px;
+  line-height: 28px;
 }
 
 .page-contact .vector {

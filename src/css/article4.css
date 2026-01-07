@@ -93,7 +93,7 @@
 
 .article .img {
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 273px;
   width: 376px;
   height: 488px;
@@ -444,7 +444,7 @@
 
 .article .les-femmes-de-2 {
   position: absolute;
-  top: 149px;
+  top: 100px;
   left: 30px;
   width: 250px;
   font-family: "Baumans", Helvetica;
