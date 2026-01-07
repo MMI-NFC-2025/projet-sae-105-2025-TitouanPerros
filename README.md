@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM :Perros
+- PRÉNOM : Titouan
+- GROUPE : A2
+- URL du site : site-effet-matilda.netlify.app
+- URL FIGMA : 
