@@ -6,5 +6,5 @@
 - NOM :Perros
 - PRÉNOM : Titouan
 - GROUPE : A2
-- URL du site : site-effet-matilda.netlify.app
-- URL FIGMA : 
+- URL du site : http://lucia-moholy.titouan-perros.fr
+- URL FIGMA : https://www.figma.com/proto/CSbhciN5PzZzrteIopMUBT/Maquette-figma-site-matilda?node-id=91-2&t=MdK3Dsif2Wb45HVX-1
