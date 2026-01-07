@@ -141,7 +141,7 @@
 .footer {
   position: relative;
   width: 393px;
-  height: 606px;
+  min-height: 606px;
   background-color: #1d1513;
 }
 

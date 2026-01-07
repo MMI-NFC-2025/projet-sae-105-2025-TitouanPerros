@@ -446,13 +446,14 @@
   position: absolute;
   top: 149px;
   left: 30px;
-  width: 381px;
+  width: 250px;
   font-family: "Baumans", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 104.7px;
   letter-spacing: -9.43px;
-  line-height: 82.2px;
+  line-height: 90px;
+  word-spacing: 9999px;
 }
 /* Inject original CSS code here */
 

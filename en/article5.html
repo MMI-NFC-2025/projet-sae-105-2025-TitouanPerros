@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Article 5: To Go Further - Lucia Moholy</title>
+    <link rel="stylesheet" href="../src/css/header.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html"><img class="logo_anglais" src="../assets/icons/logo_anglais.svg" alt="English version" /></a>
+      <a href="../article5.html"><img class="logo_français" src="../assets/icons/logo_français.svg" alt="Version française" /></a>
+      <div class="burger-menu" aria-label="Open menu" role="button">
+        <span></span>
+      </div>
+    </header>
+    <nav class="menu-overlay" aria-label="Main navigation">
+      <a href="index.html">HOME</a>
+      <a href="article1.html">ARTICLE 1: HER HISTORY</a>
+      <a href="article2.html">ARTICLE 2: THE BAUHAUS</a>
+      <a href="article3.html">ARTICLE 3: WHAT IS THE MATILDA EFFECT?</a>
+      <a href="article4.html">ARTICLE 4: WOMEN IN SCIENCE IN LITERATURE</a>
+      <a href="article5.html">ARTICLE 5: TO GO FURTHER</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="apropos.html">ABOUT</a>
+      <a href="autres-projets.html">OTHER PROJECTS</a>
+      <a href="glossaire.html">GLOSSARY</a>
+    </nav>
+    
+    <main>
+      <h1>Article 5: To Go Further</h1>
+      <p>Article 5 content to be added</p>
+    </main>
+
+    <script>
+      const burger = document.querySelector('.burger-menu');
+      const overlay = document.querySelector('.menu-overlay');
+
+      if (burger && overlay) {
+        burger.addEventListener('click', () => {
+          overlay.classList.toggle('open');
+          burger.classList.toggle('active');
+        });
+      }
+    </script>
+  </body>
+</html>
