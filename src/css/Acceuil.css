@@ -8,9 +8,12 @@ html, body {
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .page-accueil {
   background-color: #ffffff;
-  overflow-x: hidden;
   width: 100%;
   min-width: 393px;
   min-height: 4752px;
